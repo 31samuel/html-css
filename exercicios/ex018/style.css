@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2? família=Open+Sans:ital@1&display=swap');
+
+body{
+    background-color: red;
+}
+h1{
+    font-family:'Open Sans', sans-serif; ;
+    font-size: 3em;
+}
+p{
+    font-family:'Open Sans', sans-serif; ;
+}

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(0, 183, 255);
+  
+}
+header{
+    background-color: #fff;
+    padding: 15px;
+    width: 500px;
+    border-radius: 50px;
+   position: absolute;
+   transform: translate(-50%,-50%);
+   top: 50%;
+   left:50%;
+   padding: 55px;
+   margin: 15px;
+
+}
+h1{
+    color: blue;
+    font-style: italic;
+    margin-block: 10px;
+
+}
+input{
+    margin-block: 10px;
+    display: inline-block;
+    padding: 10px;
+    font: 10pt bold;
+    
+  
+}
+#nome{
+   padding: 10px;
+}
+label{
+  font-style: italic;
+  font-weight: 900;
+}
+input label [type="text"]{
+    background-color: red;
+}

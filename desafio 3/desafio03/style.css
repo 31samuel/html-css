@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ :root {
+    --gradient: linear-gradient(
+    to right,
+    rgb(149 114 252 ),
+    rgb(67 231 173 ),
+    rgb(226 212 92 )
+)
+
+}
+
+body{
+    font-size: 10rem;
+    font-family: 'Bebas Neue', sans-serif;
+    background-image: linear-gradient(45deg, black, #221133);    
+    color: #fff;
+
+}
+h1{
+  
+    font-size: 4rem;
+    display: grid;
+    place-content: center;
+    background-image: var(--gradient) ;
+    background-clip: text;
+   -webkit-background-clip: text;
+    color: transparent;
+}
+/*section
+    padding:1rem ;
+border: 2px solid beige;*/
+
+section::after{
+    content: '';
+    height: 4px;
+    width: 90%;
+    display: grid;
+    place-content: center;
+    background-color: #fff;
+    background-image: var(--gradient);
+    border-radius: 0 0 4rem 4rem;
+    margin:30px 30px 30px;
+}
+
+
